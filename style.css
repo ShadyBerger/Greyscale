@@ -1,0 +1,286 @@
+body{
+    font-family: Nunito;
+}
+li a{
+  font-size: 20px
+}
+.paddingTitle4{
+  padding-left: 436px;
+  padding-bottom: 75px;
+}
+.colorW{
+  color: rgba(255,255,255,.5) !important;
+}
+.containerNav{
+    padding-left: 20%;
+    padding-top: 10px;
+    color: rgba(255,255,255,.5);
+}
+.containerNav2{
+    padding-left: 800px;
+    display: flex;
+}
+
+#mainNav {
+    min-height: 56px;
+    background-color: transparent;
+    color: rgba(255,255,255,.5);
+  }
+.navbar{
+    min-height: 56px;
+    background-color: transparent;
+    margin-bottom: 0px !important;
+    color: rgba(255,255,255,.5) !important;
+  }
+  #mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: #64a19d;
+    border: 1px solid #64a19d;
+  }
+
+  #mainNav .navbar-brand {
+    color: rgba(255,255,255,.5) !important;
+    font-weight: 700;
+    padding: .9rem 0;
+  }
+
+  #mainNav .navbar-nav .nav-item:hover {
+    color: fade(white, 80%);
+    outline: none;
+    background-color: transparent;
+    color: rgba(255,255,255,.5);
+  }
+
+  #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+    color: rgba(255,255,255,.5);
+  }
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+#about{
+    background:linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+}
+
+.masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("./images/bg-masthead.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("./images/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  .masthead h1 {
+    /* font-family: 'Varela Round'; */
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  .masthead h2 {
+    max-width: 40rem;
+    font-size: 2rem;
+  }
+  @media (min-width: 768px) {
+    .masthead h1 {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+      padding: 0;
+    }
+    .masthead h1 {
+      font-size: 7rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+    .masthead h2 {
+      max-width: 40rem;
+      font-size: 1.5rem;
+    }
+  }
+
+
+  .btn {
+    -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+  }
+
+  .btn-primary {
+    background-color: #64a19d;
+  }
+
+  .btn-primary:hover {
+    background-color: #4f837f;
+  }
+
+  .btn-primary:focus {
+    background-color: #4f837f;
+    color: white;
+  }
+
+  .btn-primary:active {
+    background-color: #467370 !important;
+  }
+
+    #mainNav .navbar-brand {
+    padding: .5rem 0;
+    color: rgba(255,255,255,.5);
+}
+
+#mainNav .navbar-brand {
+    color: #161616;
+    font-weight: 700;
+    padding: .9rem 0;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+a {
+    color: #64a19d;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.text-white-50 {
+    color: rgba(255,255,255,.5)!important;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+}
+.mt-2, .my-2 {
+    margin-top: .5rem!important;
+}
+.h2, h2 {
+    font-size: 2rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+.project-section{
+  margin-top: 200px;
+}
+.shorelineBorder{
+  
+  padding-left: 30px !important;
+  border-left: .5rem solid #64a19d;
+}
+.blackBG{
+  background-color: #161616;
+}
+.project-text{
+  margin: 20px 80px 20px 80px;
+  /* border-bottom: .5rem solid #64a19d; */
+}
+hr{
+  background-color:#64a19d;
+  width: 32%;
+  height: 4px;
+}
+.marginNEG{
+  margin-top: -48px
+}
+.signup-section{
+  margin-top: 120px;
+  padding-top: 190px;
+  background-image: ;
+  padding-bottom: 160px;
+  /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("./images/bg-signup.jpg"); */
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("./images/bg-signup.jpg");
+}
+.contact-section{
+  padding-top: 130px;
+  padding-bottom: 210px;
+}
+.ggwp{
+  padding-top: 160px;
+}
+footer{
+  padding-bottom: 120px
+}
+i{
+  color: #467370 !important;
+}
+.social{
+  padding-top: 90px;
+}
+.borderRadius{
+  border-radius: 100%;
+  background: rgba(255,255,255,.1);
+  color: rgba(255,255,255,.3);
+  text-align: center;
+  height: 3rem;
+  width: 40px;
+  line-height: 50px;
+}
+.contact-section .card{
+  border: 0;
+  border-bottom: .25rem solid #64a19d;
+}
+.emailBIG{
+      height: 60px;
+}

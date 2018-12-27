@@ -1,0 +1,22 @@
+{
+  "name": "cs6-simple-recap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aug126/cs6-simple-recap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aug126/cs6-simple-recap/issues"
+  },
+  "homepage": "https://github.com/aug126/cs6-simple-recap#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3"
+  }
+}
